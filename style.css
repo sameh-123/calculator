@@ -1,0 +1,69 @@
+body{
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    background-color: gray;
+    border: solid 1px white;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    border-radius: 20px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+}
+.disply{
+    background-color: azure;
+    width: 350px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+input{
+    height: 60px;
+    width: 68px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: brown;
+}
+.sub{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ac , .del{
+    width: 162px;
+}
+.up{
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+}
+.down{
+    font-size: 30px;
+    font-weight: 800;
+    color: brown;
+    margin-top: 10px;
+    padding: 10px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
